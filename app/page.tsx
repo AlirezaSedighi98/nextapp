@@ -1,8 +1,8 @@
 import Catalog from "./components/layout/Catalog";
-import Navbar from "./components/layout/Navbar";
 import macImg from "@/public/images/mac.jpg";
 import iPadImg from "@/public/images/ipad.jpg";
 import iPhoneImg from "@/public/images/iphone14Pc.jpg";
+import Navbar from "./components/layout/Navbar";
 
 export default function Home() {
   const catalogItems: {
