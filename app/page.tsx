@@ -2,7 +2,7 @@ import Catalog from "./components/layout/Catalog";
 import macImg from "@/public/images/mac.jpg";
 import iPadImg from "@/public/images/ipad.jpg";
 import iPhoneImg from "@/public/images/iphone14Pc.jpg";
-import Navbar from "./components/layout/Navbar";
+import NavBar from "./components/layout/NavBar";
 
 export default function Home() {
   const catalogItems: {
@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <div>
-      <Navbar />
+      <NavBar />
       {catalogItems.map((item, index) => (
         <Catalog
           backgroundUrl={item.backgroundUrl}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav className="nav-bar">
       <a href="/">
@@ -32,7 +32,7 @@ const Navbar = () => {
         />
       </a>
       <a href="">
-      <Image
+        <Image
           src={"/images/logo/bag.png"}
           width={28}
           height={28}
@@ -43,4 +43,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
