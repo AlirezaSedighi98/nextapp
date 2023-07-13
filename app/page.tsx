@@ -32,12 +32,13 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      {catalogItems.map((item) => (
+      {catalogItems.map((item, index) => (
         <Catalog
           backgroundUrl={item.backgroundUrl}
           title={item.title}
           desc={item.desc}
           bgDark={item.bgDark}
+          key={index}
         />
       ))}
     </div>
