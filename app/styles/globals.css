@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./layout/navbar.css);
+
+@layer components {
+  * {
+    @apply text-primary;
+    font-family: "Noto Sans", sans-serif;
+  }
+  body{
+    @apply bg-slate-700 px-20
+  }
+  
+}
+
+

@@ -1,0 +1,17 @@
+.navbar {
+  @apply flex w-full justify-between h-16 border-b-2;
+}
+
+.navbar,
+span {
+  @apply flex items-center gap-3;
+}
+
+.navbar,
+ul {
+  @apply flex;
+}
+
+li {
+  @apply h-full py-5 px-10 border-red-800 border-b-2;
+}
