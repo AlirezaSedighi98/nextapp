@@ -1,0 +1,24 @@
+.catalog {
+  height: calc(100vh - 44px);
+  @apply bg-center bg-no-repeat bg-cover p-14 flex justify-center text-center mb-3;
+}
+
+.catalog > span {
+  @apply w-1/2;
+}
+
+.catalog > span > h1 {
+  @apply text-[56px] font-bold;
+}
+
+.catalog > span > h3 {
+  @apply text-[28px];
+}
+
+.catalog > span > div {
+  @apply text-[24px] flex justify-center gap-6;
+}
+
+.catalog > span > div > a {
+  @apply hover:underline text-blue-500;
+}

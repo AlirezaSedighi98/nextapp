@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 @import url(./layout/navbar.css);
+@import url(./layout/catalog.css);
+
+@font-face {
+  font-family: Apple;
+  src: url("./font/sf-pro-display_regular.woff2")
+    url("./font/sf-pro-text_bold.woff2");
+}
 
 @layer components {
   * {
     @apply text-primary;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Apple", sans-serif;
   }
-  body{
-    @apply bg-slate-700 px-20
-  }
-  
 }
-
-
